@@ -1,0 +1,14 @@
+{
+  "Items": [
+    {
+      "Id": "food/ration",
+      "Durability": 99,
+      "SpecialProp": true
+    },
+    {
+      "Id": "*",
+      "Durability": 50,
+      "GlobalItemProp": "patched"
+    }
+  ]
+}
