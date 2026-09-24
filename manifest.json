@@ -4,5 +4,6 @@
   "version": "1.0.0",
   "author": "ct",
   "description": "Test mod demonstrating property patches system with wildcard and targeted patches",
+  "category": "other",
   "depends": ["core>=1"]
 }
