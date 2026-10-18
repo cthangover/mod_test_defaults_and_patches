@@ -6,7 +6,7 @@
   "description": "Test fixture of the property patches system: a targeted patch (Marao, food/ration) and wildcard patches of every character and item. Marked as a fixture, so --all-mods and games never load it; the property_patches itest loads it explicitly (--with-mods=test_defaults_and_patches --itest=property_patches) and checks the merged entities.",
   "category": "other",
   "depends": [
-    "cthangover_story>=1",
+    "cthangover_game>=1",
     "cthangover_murakami>=1",
     "cooking>=1",
     "characters_base>=1",
