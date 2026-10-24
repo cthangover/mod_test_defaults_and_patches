@@ -29,7 +29,7 @@ namespace Mods.TestDefaultsAndPatches
                 return;
             queued = true;
             GameLogger.Log("TEST", "PropertyPatchesTest: activating");
-            (Godot.Engine.GetMainLoop() as SceneTree)?.Root?.CallDeferred("add_child", new PropertyPatchesTestDriverNode());
+            ModRoot.AddDeferred(new PropertyPatchesTestDriverNode());
         }
     }
 
