@@ -3,7 +3,7 @@
   "name": "Test Defaults and Patches",
   "version": "1.0.0",
   "author": "ct",
-  "description": "Test fixture of the property patches system: a targeted patch (Marao, food/ration) and wildcard patches of every character and item. Marked as a fixture, so --all-mods and games never load it; the property_patches itest loads it explicitly (--with-mods=test_defaults_and_patches --itest=property_patches) and checks the merged entities.",
+  "description": "A test fixture, not content: property patches the property_patches test loads to check how patches of other mods' characters and items merge. Never part of a game.",
   "category": "other",
   "depends": [
     "cthangover_game>=1",
